@@ -5,12 +5,12 @@ const fs = require("fs");
 const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
-      {
-    host: "lava-v3.ajieblogs.eu.org",
-    port: 80, 
-    password: "https://dsc.gg/ajidevserver", 
-     secure: false
-  },
+        {
+            host: "lava-v4.ajieblogs.eu.org",
+            password: "https://dsc.gg/ajidevserver",
+            port: 443,
+            secure: true
+        },
 ];
 
 
